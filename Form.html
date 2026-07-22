@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Registration Form</title>
+
+
+</head>
+
+<h1>Registration Form!</h1>
+<br><br>
+
+<body>
+    <div class="content-box">
+
+
+
+
+        <form>
+            <fieldset>
+                <h2>Personal Details</h2>
+                <br>
+
+                <hr>
+
+                <br>
+
+
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name">
+                <br><br>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label> Gender:</label>
+                <label>
+                    Male
+                    <input type="radio" name="gender" id="male" value="male" />
+                </label>
+                <label>
+                    Female
+                    <input type="radio" name="gender" id="female" value="female" />
+                </label>
+                <br><br>
+                <label for="city">City:</label>
+                <select id="city" name="city:">
+                    <option value="amman">Amman</option>
+                    <option value="zarqa">Zarqa</option>
+                    <option value="irbid">Irbid</option>
+                </select>
+                <br><br>
+                <input type="button" id="submit" onclick="msg()" value="sign up">
+            </fieldset>
+        </form>
+</body>
+
+</html>
